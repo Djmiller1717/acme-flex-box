@@ -68,3 +68,21 @@ header {
     border: 1px solid black;
     padding-right: 25px;
 } */
+
+* {
+    box-sizing: border-box;
+}
+
+.results {
+    border: solid 1px black;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 15px;
+}
+
+.boxes {
+    border: solid 1px black;
+    height: 100px;
+    width: calc(100%/3 - 30px);
+    margin: 15px;
+}
