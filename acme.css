@@ -20,3 +20,51 @@ header {
 .nav-users {
     font-weight: bold;
 }
+
+.users {
+    padding-left: 1.5rem;
+}
+
+.create {
+    display: flex;
+    justify-content: center;
+}
+
+.form {
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+}
+
+.form > h1 {
+    padding-left: 25px;
+}
+
+.fields {
+    display: flex;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 15px;
+}
+
+/* input {
+    -webkit-flex: 1;
+} */
+
+.fields > label {
+    /* border: 1px solid black; */
+    font-weight: bold;
+    display: flex;
+    width: 125px;
+    padding-left: 15px;
+    padding-bottom: 15px;
+}
+
+/* .fields > input {
+    border: 1px solid black;
+    padding-right: 25px;
+} */
