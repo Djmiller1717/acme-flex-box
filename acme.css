@@ -63,11 +63,23 @@ header {
     -webkit-flex: 1;
 } */
 
+#dept{
+    width: 95%;
+}
+
+#lname{
+    width: 96%;
+}
+
+#fname{
+    width: 96%;
+}
+
 .fields > label {
     /* border: 1px solid black; */
     font-weight: bold;
     display: flex;
-    width: 125px;
+    width: 150px;
     padding-left: 15px;
     padding-bottom: 15px;
 }
@@ -132,10 +144,10 @@ header {
         padding-bottom: 0rem;
     }
     .fields > input{
-        margin: 0.5rem;
+        margin: 1rem;
     }
     #dept{
-        margin: 0.25rem;
+        margin: 0.5rem;
     }
     .acme {
         width: 100vw
